@@ -1,0 +1,15 @@
+.titlepage{
+    text-align:center;
+}
+body {
+    background-color: #d96459;
+}
+#title {
+    font-size: 80px;
+}
+#description{
+    font-size: 50px;
+}
+#strapline{
+    font-size: 30px;
+}
