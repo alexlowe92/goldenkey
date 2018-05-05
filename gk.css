@@ -1,49 +1,36 @@
-.titlepage{
-    text-align:center;
-}
+
+                                                                        /*General*/
 body {
     background-color:#EFEFEF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+                                                                         /*Header*/
+
+.header{ /*Header positioning*/
+    padding:1%;
+    margin: 1%;
+    border-bottom: 3px solid;
+    width: 100%;
+    background-color: #CAEBF2;
+}
+.titlepage{
+    text-align:center;
+}
 #title {
-    font-size: 400%;
-}
-#description{
-    font-size: 200%;
-}
-#strapline{
-    font-size: 150%;
+    font-size: 120%;
 }
 #companyname{
     font-family: fantasy;  
     color: darkgoldenrod;
     text-decoration:none;
+    text-align:center;
+    font-size:150%;
 }
 
-/* CSS Boxes*/
-.header{
-    padding:2%;
-    border-bottom: 3px solid;
-    width: 100%;
-    background-color: #CAEBF2;
-}
-.main{
-    height: 20%;
-    width: 80%;
-    margin-left: auto; /*Centres text*/
-    margin-right:auto; /*Centres text*/
-    padding-bottom: 7%;
-    padding-top: 3%;
-    padding-left:5%;
-    padding-right:5%;
-}
-.footer{
-    margin: 0%;
-    padding: 1%;
-    background-color:#CAEBF2;
-    width: 100%;
-}
-/* Style the nav toolbar list so its horizontal*/
+
+                                                                          /* Navigation bar*/
+
 ul{
     list-style-type: none; /* No bullet points for links */
 }
@@ -56,6 +43,7 @@ li{
     margin-right:auto;
     display:block;
     margin:3%;
+    text-align:center;
 }
 .navbar a {
     color:black;
@@ -65,19 +53,53 @@ li{
     margin: 3%;
     min-width:50px;
 }
-.navbar a:hover {
+.navbar a:hover { /*Navbar links go dark when hovered over*/
     background-color:#dddddd;
     color: black;
+}
+
+
+                                                                            /*Main content*/
+
+.main{
+    height: 20%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 3%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#blurb{
+    font-size: 120%;
+    color:darkgoldenrod
+}
+
+h3{
+    color:darkgoldenrod;
 }
 
 /*New books like Gringer the Whinger*/
 .latest{
     padding-top: 1%;
-    margin:2%;
+    margin:1%;
+    margin: solid;
     padding:3%;
     width:100%;
-    background-color:#A9A9A9;
+    margin:auto;
+    text-align:center; /*Centres text*/
 }
-h2{
-    color:darkgoldenrod;
+#gringerpicture{
+    width:40%;
+    margin-left:auto; /*Centres picture*/
+    margin-right:auto; /*Centres picture*/
+}
+
+                                                                                   /*Footer*/
+.footer{
+    margin: 0%;
+    padding: 1%;
+    background-color:#CAEBF2;
+    width: 100%;
 }
