@@ -14,14 +14,14 @@ body {
     width: 100%;
     background-color: #CAEBF2;
 }
-.titlepage{
+.companydescription{
     text-align:center;
 }
-#title {
+#strapline {
     font-size: 120%;
 }
 #companyname{
-    font-family: fantasy;  
+    font-family:fantasy;
     color: darkgoldenrod;
     text-decoration:none;
     text-align:center;
@@ -31,12 +31,6 @@ body {
 
                                                                           /* Navigation bar*/
 
-ul{
-    list-style-type: none; /* No bullet points for links */
-}
-li{
-    display:inline; /* Horizontal list of links */
-}
 .navbar{
     width:100%;
     margin-left:auto;
@@ -45,6 +39,13 @@ li{
     margin:3%;
     text-align:center;
 }
+ul{
+    list-style-type: none; /* No bullet points for links */
+}
+li{
+    display:inline; /* Horizontal list of links */
+}
+
 .navbar a {
     color:black;
     text-align: center;
@@ -58,7 +59,6 @@ li{
     color: black;
 }
 
-
                                                                             /*Main content*/
 
 .main{
@@ -66,7 +66,7 @@ li{
     width: 80%;
     margin-left:auto;
     margin-right:auto;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     padding-left:5%;
     padding-right:5%;
 }
@@ -84,7 +84,6 @@ h3{
 .latest{
     padding-top: 1%;
     margin:1%;
-    margin: solid;
     padding:3%;
     width:100%;
     margin:auto;
@@ -95,11 +94,22 @@ h3{
     margin-left:auto; /*Centres picture*/
     margin-right:auto; /*Centres picture*/
 }
-
+.socialmedia{
+    width:5%;
+}
                                                                                    /*Footer*/
 .footer{
     margin: 0%;
     padding: 1%;
     background-color:#CAEBF2;
     width: 100%;
+}
+
+/*Educational books*/
+
+.block{
+    text-align:center;
+    width: 100%;
+    margin: 1%;
+    padding: 3%;
 }
