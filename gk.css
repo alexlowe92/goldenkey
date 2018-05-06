@@ -107,9 +107,19 @@ h3{
 
 /*Educational books*/
 
-.block{
-    text-align:center;
-    width: 100%;
-    margin: 1%;
-    padding: 3%;
+/*Flexbox system start*/
+.container{
+    width: 80%;
+    display:flex; /*Boxes in a line*/
+    flex-wrap:wrap; /*Shoves boxes down when small screen*/
+    margin-top:3%;
+    margin-left:auto; /*Centres div*/
+    margin-right:auto;
 }
+.box{
+    width: 350px;
+    height: 300px;
+    margin-left:auto; /*Centres boxes inside container*/
+    margin-right:auto;
+}
+/*Flexbox system end*/
